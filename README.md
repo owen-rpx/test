@@ -2,7 +2,6 @@
 
 ### Pre-install vue-cli
 npm install -g @vue-cli
-```
 
 ## Project setup
 ```
@@ -22,4 +21,3 @@ npm run serve
 ### Compiles and minifies for production
 ```
 npm run build
-```

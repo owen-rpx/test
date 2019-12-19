@@ -12,20 +12,19 @@
                  },
                  {
                      "image": "/imgs/item1-1.png",
-                     "txt": "Alzheimer's Disease",
-                     "className": "tc sp2 cg1"
+                     "txt": "Alzheimer's <br> Disease",
+                     "className": "tc sp1"
                  },
                  {
                      "image": "/imgs/item1-1.png",
                      "txt": "CVD Prevention",
-                     "className": "tc sp2"
+                     "className": "tc sp1"
                  },
                  {
                      "image": "/imgs/item1-2.png",
                      "txt": "Diabetes",
                      "className": "tc sp1"
-                 }
-                 ,
+                 },
                  {
                      "image": "/imgs/item1-3.png",
                      "txt": "Depression",
@@ -39,13 +38,13 @@
              "img": "/imgs/item2.png",
              "child": [{
                      "image": "/imgs/item2-1.png",
-                     "txt": "Powerhouse Fruits and Vegetables (PFV)",
-                     "className": ""
+                     "txt": "Powerhouse Fruits<br>and Vegetables<br>(PFV)",
+                     "className": "sp2"
                  },
                  {
                      "image": "/imgs/item2-1.png",
-                     "txt": "Nutrient Density Score: Powerhouse Fruits and Vegetables",
-                     "className": ""
+                     "txt": "Nutrient Density<br>Score: Powerhouse<br>Fruits and<br>Vegetables",
+                     "className": "sp2"
                  }
              ]
          },
@@ -54,18 +53,18 @@
              "img": "/imgs/item3.png",
              "child": [{
                      "image": "/imgs/item3-1.png",
-                     "txt": "Fish Your Guide To The Safest Catch",
-                     "className": ""
+                     "txt": "Fish Your Guide<br>To The<br>Safest Catch",
+                     "className": "sp2"
                  },
                  {
                      "image": "/imgs/item3-1.png",
-                     "txt": "Healthy High Fiber Foods",
-                     "className": ""
+                     "txt": "Healthy High<br>Fiber Foods",
+                     "className": "sp2"
                  },
                  {
                      "image": "/imgs/item3-1.png",
-                     "txt": "The Mediterranean Diet",
-                     "className": ""
+                     "txt": "The Mediterranean<br>Diet",
+                     "className": "sp2"
                  }
              ]
          },
@@ -75,18 +74,18 @@
              "img": "/imgs/item4.png",
              "child": [{
                      "image": "/imgs/item4-1.png",
-                     "txt": "Vitamin D3 Suboptimal Level",
-                     "className": "tc"
+                     "txt": "Vitamin D3<br>Suboptimal Level",
+                     "className": "tc sp1"
                  },
                  {
                      "image": "/imgs/item4-1.png",
-                     "txt": "Magnesium Suboptimal Level",
-                     "className": "tc"
+                     "txt": "Magnesium<br>Suboptimal Level",
+                     "className": "tc sp1"
                  },
                  {
                      "image": "/imgs/item4-1.png",
-                     "txt": "Vitamin B2 Suboptimal Level",
-                     "className": "tc"
+                     "txt": "Vitamin B2<br>Suboptimal Level",
+                     "className": "tc sp1"
                  }
              ]
          },
@@ -96,22 +95,22 @@
              "child": [{
                      "image": "/imgs/item6-1.png",
                      "txt": "Breast Cancer",
-                     "className": "tc sp2"
+                     "className": "tc sp1"
                  },
                  {
                      "image": "/imgs/item6-1.png",
                      "txt": "Prostate Cancer",
-                     "className": "tc sp2"
+                     "className": "tc sp1"
                  },
                  {
                      "image": "/imgs/item6-1.png",
                      "txt": "Colon Cancer",
-                     "className": "tc sp2"
+                     "className": "tc sp1"
                  },
                  {
                      "image": "/imgs/item6-1.png",
                      "txt": "Stomach Cancer",
-                     "className": "tc sp2"
+                     "className": "tc sp1"
                  }
              ]
          },
@@ -122,16 +121,16 @@
              "child": [{
                      "image": "/imgs/item7-1.png",
                      "txt": "Tips for Better Sleep",
-                     "className": "tc sp2"
+                     "className": "tc sp1"
                  },
                  {
                      "image": "/imgs/item7-1.png",
                      "txt": "Sleep Dosage",
-                     "className": "tc sp2"
+                     "className": "tc sp1"
                  },
                  {
                      "image": "/imgs/item7-1.png",
-                     "txt": "How Much Physical Activity Does One Need?",
+                     "txt": "How Much<br>Physical Activity<br>Does One Need?",
                      "className": "tc sp3"
                  }
              ]
@@ -140,11 +139,19 @@
              "text01": "Blue Zones",
              "img": "/imgs/item8.png",
              "child": [{
-                     "image": "/imgs/item8-1.png",
-                     "txt": "Use Vue-CLI build and run this demo project",
-                     "className": ""
-                 }
-             ]
+                 "image": "/imgs/item8-1.png",
+                 "txt": "Use Vue-CLI<br>build and<br>run this<br>demo project",
+                 "className": "sp2"
+             }]
+         },
+         {
+             "text01": "Blue Zones",
+             "img": "/imgs/item8.png",
+             "child": [{
+                 "image": "/imgs/item8-1.png",
+                 "txt": "Use Vue-CLI<br>build and<br>run this<br>demo project",
+                 "className": "sp2"
+             }]
          }
      ]
  }

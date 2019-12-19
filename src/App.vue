@@ -16,13 +16,15 @@
 </script>
 
 <style>
+	#app {
+		width: 100%;
+	}
 	body {
 		background: url('/imgs/action_bg.png') no-repeat;
 		background-attachment:fixed;
 		background-size: cover;
 		width: 100%;
 		height: 100%;
-		margin: 0;
-		margin-top: 30px;
+		margin: 30px 0 0 0;
 	}
 </style>

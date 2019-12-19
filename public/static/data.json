@@ -7,27 +7,29 @@
              "img": "/imgs/item1.png",
              "child": [{
                      "image": "/imgs/item1-1.png",
-                     "txt": "CVD"
+                     "txt": "Stroke",
+                     "className": "tc sp1"
                  },
                  {
                      "image": "/imgs/item1-1.png",
-                     "txt": "CVD"
+                     "txt": "Alzheimer's Disease",
+                     "className": "tc sp2 cg1"
+                 },
+                 {
+                     "image": "/imgs/item1-1.png",
+                     "txt": "CVD Prevention",
+                     "className": "tc sp2"
                  },
                  {
                      "image": "/imgs/item1-2.png",
-                     "txt": "CVD"
-                 },
+                     "txt": "Diabetes",
+                     "className": "tc sp1"
+                 }
+                 ,
                  {
                      "image": "/imgs/item1-3.png",
-                     "txt": "CVD"
-                 },
-                 {
-                     "image": "/imgs/item1-3.png",
-                     "txt": "CVD"
-                 },
-                 {
-                     "image": "/imgs/item1-3.png",
-                     "txt": "CVD"
+                     "txt": "Depression",
+                     "className": "tc sp1"
                  }
              ]
          },
@@ -37,11 +39,13 @@
              "img": "/imgs/item2.png",
              "child": [{
                      "image": "/imgs/item2-1.png",
-                     "txt": "CVDsrtgerygter"
+                     "txt": "Powerhouse Fruits and Vegetables (PFV)",
+                     "className": ""
                  },
                  {
                      "image": "/imgs/item2-1.png",
-                     "txt": "CsdfgsdgVD"
+                     "txt": "Nutrient Density Score: Powerhouse Fruits and Vegetables",
+                     "className": ""
                  }
              ]
          },
@@ -50,23 +54,18 @@
              "img": "/imgs/item3.png",
              "child": [{
                      "image": "/imgs/item3-1.png",
-                     "txt": "CVDsrtgerygter"
+                     "txt": "Fish Your Guide To The Safest Catch",
+                     "className": ""
                  },
                  {
                      "image": "/imgs/item3-1.png",
-                     "txt": "CsdfgsdgVD"
+                     "txt": "Healthy High Fiber Foods",
+                     "className": ""
                  },
                  {
                      "image": "/imgs/item3-1.png",
-                     "txt": "CsdfgsdgVD"
-                 },
-                 {
-                     "image": "/imgs/item3-1.png",
-                     "txt": "CsdfgsdgVD"
-                 },
-                 {
-                     "image": "/imgs/item3-1.png",
-                     "txt": "CsdfgsdgVD"
+                     "txt": "The Mediterranean Diet",
+                     "className": ""
                  }
              ]
          },
@@ -76,80 +75,74 @@
              "img": "/imgs/item4.png",
              "child": [{
                      "image": "/imgs/item4-1.png",
-                     "txt": "CVDsrtgerygter"
+                     "txt": "Vitamin D3 Suboptimal Level",
+                     "className": "tc"
                  },
                  {
                      "image": "/imgs/item4-1.png",
-                     "txt": "CsdfgsdgVD"
+                     "txt": "Magnesium Suboptimal Level",
+                     "className": "tc"
                  },
                  {
                      "image": "/imgs/item4-1.png",
-                     "txt": "CsdfgsdgVD"
+                     "txt": "Vitamin B2 Suboptimal Level",
+                     "className": "tc"
                  }
              ]
          },
          {
-             "text01": "Diet Pattern",
-             "img": "/imgs/item5.png",
-             "child": [{
-                 "image": "/imgs/item5-1.png",
-                 "txt": "CVDsrtgerygter"
-             }]
-         },
-         {
-             "text01": "Essential",
+             "text01": "Cancer Prevention",
              "img": "/imgs/item6.png",
              "child": [{
                      "image": "/imgs/item6-1.png",
-                     "txt": "CVDsrtgerygter"
+                     "txt": "Breast Cancer",
+                     "className": "tc sp2"
                  },
                  {
                      "image": "/imgs/item6-1.png",
-                     "txt": "CVDsrtgerygter"
+                     "txt": "Prostate Cancer",
+                     "className": "tc sp2"
                  },
                  {
                      "image": "/imgs/item6-1.png",
-                     "txt": "CVDsrtgerygter"
+                     "txt": "Colon Cancer",
+                     "className": "tc sp2"
                  },
                  {
                      "image": "/imgs/item6-1.png",
-                     "txt": "CVDsrtgerygter"
+                     "txt": "Stomach Cancer",
+                     "className": "tc sp2"
                  }
              ]
          },
          {
-             "text01": "Essential",
-             "text02": "Micronutrient",
+             "text01": "Lifestyle",
+             "text02": "Improvement",
              "img": "/imgs/item7.png",
              "child": [{
                      "image": "/imgs/item7-1.png",
-                     "txt": "CVDsrtgerygter"
+                     "txt": "Tips for Better Sleep",
+                     "className": "tc sp2"
                  },
                  {
                      "image": "/imgs/item7-1.png",
-                     "txt": "CVDsrtgerygter"
+                     "txt": "Sleep Dosage",
+                     "className": "tc sp2"
                  },
                  {
                      "image": "/imgs/item7-1.png",
-                     "txt": "CVDsrtgerygter"
-                 },
-                 {
-                     "image": "/imgs/item7-1.png",
-                     "txt": "CVDsrtgerygter"
+                     "txt": "How Much Physical Activity Does One Need?",
+                     "className": "tc sp3"
                  }
              ]
          },
          {
-             "text01": "Essential",
-             "text02": "Micronutrient",
+             "text01": "Blue Zones",
              "img": "/imgs/item8.png",
              "child": [{
                      "image": "/imgs/item8-1.png",
-                     "txt": "CVDsrtgerygter"
-                 },
-                 {
-                     "image": "/imgs/item8-1.png",
-                     "txt": "CVDsrtgerygter"
+                     "txt": "Use Vue-CLI build and run this demo project",
+                     "className": ""
                  }
              ]
          }

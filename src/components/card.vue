@@ -16,6 +16,7 @@
             </div>
             <div class="itemchild-content">
               <div class="itemchild-item" v-for="itemchild in item.child">
+                <span class="itemchild-txt" v-bind:class="itemchild.className">{{itemchild.txt}}</span>
                 <img class="itemchild-bg" v-bind:src="itemchild.image" />
               </div>
             </div>
@@ -33,9 +34,9 @@ export default {
   name: "card",
   data() {
     return {
-	  items: [],
-	  book:'',
-	  action: ''
+      items: [],
+      book: "",
+      action: ""
     };
   },
   mounted() {
@@ -45,9 +46,9 @@ export default {
     getData() {
       axios.get("/static/data.json").then(
         response => {
-		  this.items = response.data.itemdata;
-		  this.book = response.data.book;
-		  this.action = response.data.action;
+          this.items = response.data.itemdata;
+          this.book = response.data.book;
+          this.action = response.data.action;
         },
         response => {
           console.log("error");
@@ -104,7 +105,7 @@ li {
   margin-left: 18px;
 }
 .itemchild-bg {
-  width: 160px;
+  width: 200px;
 }
 .itemchild-content {
   display: flex;
@@ -113,6 +114,28 @@ li {
   margin-right: 10px;
 }
 .itemchild-item {
-  margin: 0 2px;
+  display: flex;
+  position: relative;
 }
+.itemchild-txt {
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+  padding: 35px 20px 10px;
+  line-height: 18px;
+}
+.tc {
+  top: 35%;
+}
+.sp1 {
+  margin-left: 50px;
+}
+.sp2 {
+  margin-left: 35px;
+}
+.sp3 {
+  /* top: 26%; */
+  line-height: 15px;
+}
+
 </style>
